@@ -1,0 +1,160 @@
+body {
+	max-width   : 600px;
+	margin-left : auto;
+	margin-right: auto;
+	background  : url("../img/flower-pattern.png");
+}
+
+#body {
+	height      : 100%;
+	padding     : 20px 20px 50px;
+	margin      : -20px;
+	border-left : 2px solid gray;
+	border-right: 2px solid gray;
+	background  : white;
+	max-height  : 100%;
+}
+
+
+h1 {
+	text-align: center;
+	font-family: Times New Roman, Times, serif;
+}
+
+h2 {
+	text-align: left;
+	text-decoration : underline;
+	font-family: "Comic Sans MS", cursive;
+}
+
+h3 {
+	text-align: left;
+	font-style: italic;
+	font-family: Georgia, Serif;
+}
+
+.p1{
+	width :100%;
+	font-family: Lucida Console, Courier, monospace;
+}
+
+img {
+	max-width    : 400px;
+	height       : auto;
+	border-radius: 10px;
+}
+
+.button {
+	float		: left;
+	max-width   : 100px;
+	height      : 50px;
+}
+
+
+
+.float-right {
+	margin-right	: 20px;
+	position		: relative;
+	left			: 0;	
+	width			: 50%;
+	height			: 25%;
+	float 			: right;
+}
+
+
+ul.main_menu {
+	width          : 100%;
+	text-align     : center;
+	padding        : 0px;
+	list-style-type: none;
+}
+ul.main_menu > li {
+	display      : inline-block;
+	margin-left  : 10px;
+	margin-right : 10px;
+	border-radius: 15px;
+	overflow     : hidden;
+}
+ul.main_menu > li:hover > a{
+	background-color: purple;
+	color           : #AAAAAA;
+}
+ul.main_menu > li > a {
+	display         : inline-block;
+	padding         : 10px;
+	text-decoration : none;
+	color           : white;
+	
+	background: #ca76db; /* Old browsers */
+	background: -moz-linear-gradient(top, #ca76db 0%, #9f20aa 65%, #9f20aa 65%, #a625bc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ca76db 0%,#9f20aa 65%,#9f20aa 65%,#a625bc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ca76db 0%,#9f20aa 65%,#9f20aa 65%,#a625bc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ca76db', endColorstr='#a625bc',GradientType=0 ); /* IE6-9 */
+}
+
+.comm{
+	position: relative;
+	left: 0;
+	bottom: -30px;	
+	width: 400px;
+	height:25%;
+	text-align: left;
+}
+
+p{
+	font-family: Arial, sans-serif;
+	display: inline-block;
+	width : 250px;
+	
+}
+
+
+
+label {
+	display      : block;
+	margin-bottom: 5px;
+	color        : #222;
+}
+input {
+	width        : 100%;
+	max-width    : 250px;
+	margin-bottom: 15px;
+}
+select {
+	max-width: 250px;
+	width    : 100%;
+}
+textarea {
+	max-width    : 450px;
+	width        : 100%;
+	height       : 300px;
+	margin-bottom: 15px;
+}
+button {
+	margin       : 15px 0px;
+	padding      : 10px;
+	border-radius: 10px;
+	text-shadow  : none;
+	box-shadow   : none;
+	border       : 2px solid magenta;
+}
+button:hover {
+	cursor: pointer;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: grey;
+  text-align: center;
+  text-decoration: none;
+ 
+}
+
+
+a:hover, a:active {
+  background-color: white;
+  color : green;
+  
+}
+
+
