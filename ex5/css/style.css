@@ -1,0 +1,106 @@
+body{
+	background-color	: pink;
+	height				: 45vw;
+	background-position	: center;
+	background-repeat	: no-repeat;
+	background-size		: cover;
+	position			: relative;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color	: lightblue;
+  }
+	.button, .comm, .flex-container{
+	  flex-direction	: column;
+  }
+}
+
+ @font-face {
+  font-family: 'Indie Flower', cursive;
+   src: url(https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
+}
+
+body {
+   font-family	:	'Indie Flower', cursive;
+}
+
+
+h2 {
+	text-align		: center;
+	text-decoration : underline;
+	font-family		: "Comic Sans MS", cursive;
+	font-size		: 2vw;
+}
+
+h3 {
+	text-align	: center;
+	font-style	: italic;
+	font-family	: Georgia, Serif;
+	font-size	: 2vw;
+}
+
+
+
+.item1 { grid-area: header;  }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: footer; }
+
+.grid-container {
+	display					: grid;
+	grid-auto-rows			:  auto;
+	grid-template-columns	: auto auto 1fr 1fr 1fr 1fr;
+	grid-template-areas		:
+    'header header header header header header'
+    'menu menu main main main main'
+    'menu menu footer footer footer footer';
+	grid-gap				: 10px;
+	padding					: 10px;
+	background-color		: #cccccc;
+}
+
+.grid-container > div {
+  background-color	: rgba(255, 255, 255, 0.8);
+  text-align		: left;
+  padding			: 20px ;
+  font-size			: 25px;
+}
+
+.flex-container {
+  display	: flex;
+}
+
+.flex-container > div {
+  width			: auto;
+  margin		: 2vw;
+  text-align	: left;
+  line-height	: 5vw;
+  font-size		: 2vw;
+}
+
+img{
+	max-width	: 100%;
+	height		: auto;
+	margin		: auto;
+	text-align	: center;
+	display		: block;
+}
+
+
+
+.comm{
+	position	: relative;
+	left		: 0;
+	bottom		: -12vw;	
+	width		: 40%;
+	height		: 25%;
+	text-align	: left;
+}
+
+.button {
+	float		: left;
+	max-width   : 10vw;
+	height      : 5vw;
+}
+
